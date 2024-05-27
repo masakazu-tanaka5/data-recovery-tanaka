@@ -1,0 +1,20 @@
+.btn {
+    margin: 50px auto;
+    padding: 5px 5px;
+    border-radius: 50px;
+    border: solid 2px #333;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform .75s;
+}
+a:active {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    transform: scale(0.7);
+    border: none;
+}
